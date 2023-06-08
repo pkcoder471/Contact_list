@@ -1,0 +1,50 @@
+body{
+    font-family:sans-serif ;
+}
+#heading{
+    text-align: center;
+    color: grey;
+    margin-top: 25px;
+}
+#container{
+    height: auto;
+    width: 500px;
+    display: flex;
+    margin-left: 520px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input{
+    border:1px solid white  ;
+    border-bottom: 1px solid gray;
+    height: 20px;
+
+}
+button{
+    color:white;
+    background-color: grey;
+    border:1px solid grey;
+    height: 20px;
+    width: 50px;
+}
+li{
+    background-color: rgb(51,154,240);
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+}
+li p{
+    display: inline;
+}
+form{
+    
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.delete-button{
+    display: inline;
+}
